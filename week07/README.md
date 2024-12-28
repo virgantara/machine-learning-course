@@ -21,3 +21,12 @@ Pertama, kita harus berbicara tentang neuron, unit dasar dari jaringan saraf. Se
 neuron menerima input, melakukan beberapa perhitungan dengan input tersebut, dan
 menghasilkan satu output. Gambar 1 merupakan bentuk neuron sederhana dengan 2
 inputan.
+
+Ada beberapa hal yang terjadi di sini:
+1. Setiap inputan x1 dan x2 dikalikan dengan suatu bobot. Di sini, x1 dikalikan
+dengan bobot w1 , sedangkan x2 dikalikan dengan bobot w2 . Bobot sini adalah faktor pengali yang menentukan seberapa besar pengaruh setiap inputan terhadap
+output. Apabila dituliskan dalam bentuk persamaan, hasilnya adalah:
+$$
+z_1 &= x_1 \cdot w_1 \\
+		z_2 &= x_2 \cdot w_2 
+$$
