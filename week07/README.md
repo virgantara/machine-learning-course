@@ -13,39 +13,12 @@ Jaringan syaraf tidak serumit itu! Istilah ”neural network” sering digunakan
 kunci, tetapi pada kenyataannya, jaringan syaraf tiruan sering kali jauh lebih sederhana
 daripada yang dibayangkan kebanyakan orang. Catatan kecil ini ditujukan untuk pemula
 atau bahkan tidak memiliki pengetahuan dasar tentang pembelajaran mesin. Kita akan
-memahami cara kerja neural network.
+memahami cara kerja neural network. 
 
 ![Neuron](neuron.jpg)
 
-Pertama, kita harus berbicara tentang neuron, unit dasar dari jaringan saraf. Sebuah
-neuron menerima input, melakukan beberapa perhitungan dengan input tersebut, dan
-menghasilkan satu output. Gambar 1 merupakan bentuk neuron sederhana dengan 2
-inputan.
-
-Ada beberapa hal yang terjadi di sini:
-1. Setiap inputan $x_1$ dan $x_2$ dikalikan dengan suatu bobot. Di sini, $x_1$ dikalikan
-dengan bobot $w_1$ , sedangkan $x_2$ dikalikan dengan bobot $w_2$. Bobot sini adalah faktor pengali yang menentukan seberapa besar pengaruh setiap inputan terhadap
-output. Apabila dituliskan dalam bentuk persamaan, hasilnya adalah:
-
-$$
-\begin{aligned}
-z_1 &= x_1 \cdot w_1  \\
-z_2 &= x_2 \cdot w_2 
-\end{aligned}
-$$
-
-2. Dari semua hasil perkalian sebelumnya ($z_1$ , $z_2$ ), dijumlahkan dan dikalikan dengan
-bias b. Bias adalah nilai tambahan yang ditambahkan ke dalam hasil perkalian
-antara input dan bobot sebelum diterapkan fungsi aktivasi. Tanpa bias, model
-hanya dapat mempelajari fungsi yang selalu melewati titik nol. Bias memungkinkan
-model untuk mempelajari fungsi yang tidak melewati titik nol. Untuk memperjelas
-apa itu bias, perhatikan contoh berikut. Misalkan kita memiliki persamaan:
-
-$$
-\begin{aligned}
-z &= x \cdot w + b 
-\end{aligned}
-$$
-
 # Membangun Neural Network
 ![Neural Network](neuralnetwork.jpg)
+
+# Lecturer Notes
+Cek file catatan di [sini](main.pdf)
