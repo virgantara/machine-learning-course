@@ -21,4 +21,4 @@ memahami cara kerja neural network.
 ![Neural Network](neuralnetwork.jpg)
 
 # Lecturer Notes
-Cek file catatan di [sini](main.pdf)
+Cek file catatan di [sini](lecturer_notes.pdf)
