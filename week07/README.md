@@ -27,9 +27,8 @@ Ada beberapa hal yang terjadi di sini:
 dengan bobot $w_1$ , sedangkan $x_2$ dikalikan dengan bobot $w_2$. Bobot sini adalah faktor pengali yang menentukan seberapa besar pengaruh setiap inputan terhadap
 output. Apabila dituliskan dalam bentuk persamaan, hasilnya adalah:
 $$
-z_1 = x_1 \cdot w_1 
-$$
-
-$$
+\begin{aligned}
+z_1 = x_1 \cdot w_1  \\
 z_2 &= x_2 \cdot w_2 
+\end{aligned}
 $$
