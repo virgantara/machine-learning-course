@@ -33,3 +33,16 @@ z_1 &= x_1 \cdot w_1  \\
 z_2 &= x_2 \cdot w_2 
 \end{aligned}
 $$
+
+2. Dari semua hasil perkalian sebelumnya ($z_1$ , $z_2$ ), dijumlahkan dan dikalikan dengan
+bias b. Bias adalah nilai tambahan yang ditambahkan ke dalam hasil perkalian
+antara input dan bobot sebelum diterapkan fungsi aktivasi. Tanpa bias, model
+hanya dapat mempelajari fungsi yang selalu melewati titik nol. Bias memungkinkan
+model untuk mempelajari fungsi yang tidak melewati titik nol. Untuk memperjelas
+apa itu bias, perhatikan contoh berikut. Misalkan kita memiliki persamaan:
+
+$$
+\begin{aligned}
+z &= x \cdot w + b 
+\end{aligned}
+$$
