@@ -46,3 +46,6 @@ $$
 z &= x \cdot w + b 
 \end{aligned}
 $$
+
+# Membangun Neural Network
+![Neural Network](neuralnetwork.jpg)
