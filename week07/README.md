@@ -26,7 +26,10 @@ Ada beberapa hal yang terjadi di sini:
 1. Setiap inputan $x_1$ dan $x_2$ dikalikan dengan suatu bobot. Di sini, $x_1$ dikalikan
 dengan bobot $w_1$ , sedangkan $x_2$ dikalikan dengan bobot $w_2$. Bobot sini adalah faktor pengali yang menentukan seberapa besar pengaruh setiap inputan terhadap
 output. Apabila dituliskan dalam bentuk persamaan, hasilnya adalah:
-```math
-z_1 &= x_1 \cdot w_1 \\
-		z_2 &= x_2 \cdot w_2 
-```
+$$
+z_1 = x_1 \cdot w_1 
+$$
+
+$$
+z_2 &= x_2 \cdot w_2 
+$$
