@@ -2,7 +2,6 @@
 ## Topics:
 - Backpropagation Algorithm
 - Loss Function and Optimization
-- Vanishing Gradient Problem
 
 ## Activities:
 - Implement Backpropagation in Neural Networks
