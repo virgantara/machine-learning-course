@@ -41,3 +41,17 @@
 - Classify reviews as positive or negative using text classification.
 - Techniques: Support Vector Machines, Data Preprocessing
 - Dataset Suggestion: IMDb Sentiment Dataset.
+
+# Rubrik Penilaian
+
+| **Kriteria**           | **Bobot**  | **Deskripsi**                                                                    |
+|-------------------------|------------|----------------------------------------------------------------------------------|
+| **Definisi Masalah**    | 10%        | Kejelasan dalam mendefinisikan masalah dan tujuan dari proyek yang dikerjakan.   |
+| **Persiapan Data**      | 15%        | Kualitas dalam melakukan preprocessing data, menangani data yang hilang, dan rekayasa fitur. |
+| **Metodologi**          | 25%        | Kesesuaian algoritma dan teknik Machine Learning yang digunakan dengan masalah yang diangkat. |
+| **Implementasi**        | 20%        | Ketepatan dan efisiensi dalam mengimplementasikan solusi.                        |
+| **Kinerja Model**       | 15%        | Evaluasi model menggunakan metrik yang sesuai (misalnya: akurasi, RMSE, F1-score). |
+| **Visualisasi**         | 10%        | Kualitas visualisasi (misalnya: grafik, diagram, confusion matrix, dll.).        |
+| **Presentasi**          | 5%         | Kejelasan dan kerapian laporan atau presentasi proyek.                           |
+| **Keunikan Data**       | **Wajib**  | Setiap kelompok/mahasiswa harus menggunakan dataset yang berbeda. Dataset yang sama tidak diperbolehkan. Pelanggaran akan mengurangi **10% dari total nilai**. |
+
