@@ -53,5 +53,5 @@
 | **Kinerja Model**       | 15%        | Evaluasi model menggunakan metrik yang sesuai (misalnya: akurasi, RMSE, F1-score). |
 | **Visualisasi**         | 10%        | Kualitas visualisasi (misalnya: grafik, diagram, confusion matrix, dll.).        |
 | **Presentasi**          | 5%         | Kejelasan dan kerapian laporan atau presentasi proyek.                           |
-| **Keunikan Data**       | **Wajib**  | Setiap kelompok/mahasiswa harus menggunakan dataset yang berbeda. Dataset yang sama tidak diperbolehkan. Pelanggaran akan mengurangi **10% dari total nilai**. |
+| **Keunikan Data**       | **Wajib**  | Setiap mahasiswa harus menggunakan dataset yang berbeda. Dataset yang sama tidak diperbolehkan. Pelanggaran akan mengurangi **10% dari total nilai**. |
 
