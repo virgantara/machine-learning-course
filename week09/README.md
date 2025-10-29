@@ -12,6 +12,23 @@ Saatnya kita berpindah ke algoritma selanjutnya, yaitu Support Vector Machine.
 
 ### Support Vector Machine ###
 
+Support Vector Machine (SVM) adalah algoritma machine learning yang digunakan untuk masalah klasifikasi dan regresi. SVM bekerja dengan mencari **hyperplane** terbaik yang memisahkan data ke dalam kelas-kelas yang berbeda. Hyperplane ini dipilih sedemikian rupa sehingga jarak (margin) antara hyperplane dan data terdekat dari setiap kelas (support vectors) adalah maksimal.
+
+### Konsep Utama SVM
+
+- Hyperplane: Sebuah garis (untuk 2D) atau bidang (untuk 3D) yang memisahkan kelas-kelas dalam ruang data.
+- Margin: Jarak antara hyperplane dan data terdekat dari masing-masing kelas. SVM memaksimalkan margin ini untuk memastikan generalisasi yang baik.
+- Support Vectors: Titik data yang berada di dekat hyperplane dan menentukan posisinya. Data ini penting dalam membentuk model SVM.
+
+### Fungsi Kernel
+
+SVM dapat digunakan baik untuk data linear maupun non-linear melalui fungsi kernel:
+
+- Linear Kernel: Digunakan untuk data yang dapat dipisahkan secara linear.
+- Polynomial Kernel: Cocok untuk data dengan pola hubungan yang lebih kompleks.
+- RBF (Radial Basis Function): Kernel ini populer untuk data non-linear, menggunakan fungsi Gaussian untuk memetakan data ke dimensi yang lebih tinggi.
+- Sigmoid Kernel: Digunakan untuk beberapa jenis data non-linear.
+
 Di bagian ini, kita akan menggunakan dataset bunga iris yang diambil dari [https://archive.ics.uci.edu/ml/datasets/iris](https://archive.ics.uci.edu/ml/datasets/iris). Dataset ini terdiri dari tiga class yaitu Iris Sentosa, Iris Versicolor, dan Iris Virginica. Dataset ini sudah sangat lazim dipakai untuk kasus supervised learning terutama klasifikasi.  
 
 #### Load dataset ####
